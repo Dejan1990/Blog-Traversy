@@ -467,6 +467,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-mt-px {
   margin-top: -1px;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .flex {
   display: flex;
 }
@@ -497,6 +500,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-auto {
   width: auto;
 }
+.w-8\/12 {
+  width: 66.666667%;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -509,8 +515,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-center {
   justify-content: center;
 }
+.justify-between {
+  justify-content: space-between;
+}
 .overflow-hidden {
   overflow: hidden;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 .border-t {
   border-top-width: 1px;
@@ -527,8 +539,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
 .p-6 {
   padding: 1.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
 }
 .py-4 {
   padding-top: 1rem;
