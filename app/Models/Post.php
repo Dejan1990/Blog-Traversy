@@ -33,4 +33,9 @@ class Post extends Model
             ->where('post_id', $this->id)
             ->exists();*/
     }
+
+    /*public function ownedBy(User $user)
+    {
+        return $user->id === $this->user_id;
+    }*/
 }
